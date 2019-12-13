@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/* Whole Page--begin */
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: FloralWhite;
+}
+
+body{
+	font-family: Ubuntu;
+}
+/* Whole Page---end */
+
+/* Navigation Bar--begin */
+.navigation {
+	background-color: rgba(255, 255, 255, 0.9);
+	position: fixed;
+	left:0;
+	top:0;
+	right:0;
+	width:100%;
+	overflow-y: auto;
+	z-index: 100;
+}
+
+h2{
+	font-size: 2em;
+}
+
+.navigation ul {
+	text-align:center;
+	padding: 0px;
+}
+
+h1{
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.navigation li{
+	display: inline-block;
+	margin: 0px 15px 0px 0px;
+	padding: 0px 5px 0px 5px;
+	color: orange;
+	font-size: 1.5em;
+	/*border-left: solid 2px;
+	border-right: solid 2px;*/
+}
+
+.navigation .title{
+	color: Coral;
+	border: none;
+}
+
+.navigation a:hover{
+	color: red;
+}
+
+.navigation a:link, a:visited{
+    text-decoration: none;
+    color: orange;
+}
+/* Navigation Bar--end */
+
+/*Kodi Pic in center*/
+.cover {
+	background-image: url("../images/edited2.jpeg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	top:-55px;
+	bottom:0px;
+	height:600px;
+	width: 100%;
+	position: relative;
+	z-index: 5;
+}
+
+.cover-content{
+	text-align: left;
+	position: relative;
+	top: 50%;
+	left: 5%;
+	color: black;
+	font-weight: 30;
+}
+/*Kodi Pic--END*/
+
+.main{
+	position: relative;
+	top:-55px;
+	padding: 0px 20%;
+	/*background-color: FloralWhite;*/
+}
+
+.intro p{
+	padding: 0px 20px 0px 30px;
+	font-size: 1.2em;
+}
+
+.titles {
+	font-size: 2em;
+	border-bottom: 2px double;
+	width:40%;
+	color: FireBrick;
+}
+
+.facts ul{
+	display: inline-block;
+	padding: 0px 0px 0px 30px;
+	margin: 0px;
+	font-size: 1.3em;
+}
+
+.mission p{
+	padding: 0px 20px 0px 30px;
+	font-size: 1.2em;
+}
